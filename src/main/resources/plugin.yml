@@ -2,3 +2,14 @@ name: BanSystemByKandiedel
 version: '${project.version}'
 main: com.kandiedel.bansystembykandiedel.BanSystemByKandiedel
 api-version: '1.20'
+commands:
+  ban:
+    description: 'Permanently suspending a player'
+  tempban:
+    description: 'Temporary suspending a player'
+  unban:
+    description: 'Unban a player'
+  check:
+    description: 'Check a players suspending status'
+  i:
+

@@ -1,0 +1,16 @@
+BanSystem:
+
+    Commands:
+
+    - /ban <player> <reason>
+    - /tempban <player> <Multiplier> <m | h | d | w | y> <Reason>
+    - /unban <player>
+    - /check <player | list>
+
+    MySQL:
+
+    - UUID
+    - Playername
+    - BanStart
+    - BanEnd
+    - Reason

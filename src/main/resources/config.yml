@@ -1,0 +1,34 @@
+# BanSystem coded by Kandiedel
+
+# MySQL connection
+MySQL:
+  Host: ''
+  Database: ''
+  User: ''
+  Password: ''
+  Port: 3306
+
+# How to use the BanSystem
+# Commands:
+#   - /ban <Player> <Reason>
+#   - /tempban <Player> <Multiplier> <m | h | d | w | y> <Reason>
+#   - /unban <Player>
+#   - /check <Player>
+
+# Permissions:
+#   - bansystem.cmd.ban
+#   - bansystem.cmd.tempban
+#   - bansystem.cmd.unban
+#   - bansystem.cmd.check
+
+# Language selection
+
+# Possible languages
+#   - ENGLISH
+#   - GERMAN
+#   - SPAIN (Not added yet)
+#   - FRENCH (Not added yet)
+Text:
+  Language: 'ENGLISH'
+
+
