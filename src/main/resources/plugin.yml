@@ -1,0 +1,4 @@
+name: BanSystemByKandiedel
+version: '${project.version}'
+main: com.kandiedel.bansystembykandiedel.BanSystemByKandiedel
+api-version: '1.20'
