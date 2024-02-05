@@ -116,9 +116,11 @@ public class BanManager {
             while (rs.next()) {
                 Long BanStartMillis = Long.valueOf(rs.getString("BanStart"));
 
+                Calendar cal = Calendar.getInstance();
+
                 SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
                 Date banStartDate = new Date(BanStartMillis);
-                return (dateFormat.format(banStartDate));
+                return (dateFormat.format(banStartDate) + "\n" + "\n" + "§f( §n" + cal.getTimeZone().getID() + "§f )");
 
             }
         } catch (SQLException e) {
@@ -159,9 +161,11 @@ public class BanManager {
                 }
                 Long BanStartMillis = Long.valueOf(rs.getString("BanEnd"));
 
+                Calendar cal = Calendar.getInstance();
+
                 SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
                 Date banStartDate = new Date(BanStartMillis);
-                return (dateFormat.format(banStartDate));
+                return (dateFormat.format(banStartDate) + "\n" + "\n" + "§f( §n" + cal.getTimeZone().getID() + "§f )");
             }
         } catch (SQLException e) {
             e.printStackTrace();
